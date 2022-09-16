@@ -130,7 +130,7 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
               itemBuilder: ((context, index) {
                 return Center(
                   child: Text(
-                    "Page ${index + 1}",
+                    "Pagina ${index + 1}",
                     style: TextStyle(
                       color: index % 2 == 0 ? Global.mediumBlue : Global.white,
                       fontSize: 30,
